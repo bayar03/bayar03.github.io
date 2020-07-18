@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="stylesheet" href="CSS/bootstrap-grid.min.css" />
+  <link rel="stylesheet" href="CSS/style.css" />
+  <title>Масма</title>
+  <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(54618256, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/54618256" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</head>
+
+<body>
+  <header>
+    <div class="head-top">
+      <div class="container">
+        <div class="row align-items-center head-top_nav">
+          <div class="col-sm-12 col-md-5 col-lg-4 head-top_about">
+            <ul class="about">
+              <li><a href="#">О компании</a></li>
+              <li><a href="#">Клиентам</a></li>
+              <li><a href="#">Для оптовиков</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-3 col-md-1 col-lg-2 city">
+            <select id="city" name="city">
+              <option value="1" selected="selected">Ваш город</option>
+              <option value="2">Удан-Удэ</option>
+              <option value="3">Иркутск</option>
+              <option value="4">Чита</option>
+            </select>
+          </div>
+          <div class="col-sm-5 col-md-3 col-lg-3 tell">
+            <p>8 800 2000 600</p>
+          </div>
+          <div class="col-sm-4 col-md-3 col-lg-3 open">
+            <a href="#">Войти</a>
+            <span>|</span>
+            <a href="#">Регистрация</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.head-top -->
+    <div class="head">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-sm-2 col-md-3 col-lg-3 head-logo"></div>
+          <div class="col-sm-6 col-md-5 col-lg-5 head-nav">
+            <ul class="head-nav_list">
+              <li><a href="#">Акции</a></li>
+              <li><a href="#">Новости</a></li>
+              <li><a href="#">Услуги</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-2 col-md-2 col-lg-2 head-select">
+            <a href="#">
+              <P>4 товара</P>
+              <span>Избранное</span>
+            </a>
+          </div>
+          <div class="col-sm-2 col-md-2 col-lg-2 head-shopcart">
+            <a href="#">
+              <p>1400 р</p>
+              <span>Корзина</span>
+              <div class="head-shopcart_total">
+                <p>3</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.head -->
+  </header>
+  <!-- header -->
+
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-3 col-lg-3 saidbar">
+          <div class="catalog">
+            <a href="#" class="catalog-head">Каталог</a>
+            <div class="subcatalog">
+              <ul class="subcatalog-list">
+                <li><a href="#">Кузовные детали</a></li>
+                <li><a href="#">Запчасти для ТО</a></li>
+                <li><a href="#">Оптика</a></li>
+                <li><a href="#">Автолампы</a></li>
+                <li><a href="#">Диски ишины</a></li>
+                <li><a href="#">Аккумуляторы</a></li>
+                <li><a href="#">Смазочные материалы</a></li>
+                <li><a href="#">Аксессуары</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="banners">
+            <div class="banner1">
+              <div class="banner1-text">
+                <h3>Покупайте дешевле<span>!</span></h3>
+                <p>Программа лояльности МАСМА</p>
+              </div>
+              <div class="banner1-wrap"></div>
+              <div class="banner1-card">
+                <a href="#"><img src="img/main/saidbar/card.png" alt=""></a>
+              </div>
+            </div>
+            <div class="banner2">
+              <img src="img/main/saidbar/tyre.png" alt="tyre" class="banner2_img">
+              <a href="#">
+                <p><span>Подбор шин</span><br>по марке автомобиля</p>
+              </a>
+            </div>
+            <div class="banner3">
+              <p>Мотивационный текст</p>
+            </div>
+          </div>
+        </div>
+        <!-- saidbar -->
+        <div class=" col-12 col-md-9 col-lg-9 content">
+          <div class="form-search">
+            <form name="search" action="#" method="post" class="search">
+              <input class="search_text" type="text" name="query-art" list="name" placeholder="По артикулу" />
+              <datalist id="name">
+                <option value="#"></option>
+              </datalist>
+              <input class="search_search" type="search" name="query" placeholder="Поиск по сайту" />
+              <input class="search_submit" type="submit" name="search" value />
+            </form>
+          </div>
+          <!-- form-search -->
+          <div class="main-slider">
+            <div class="main-slider_items">
+              <div class="main-slider_banner">
+                <div class="main-banner_img">
+                  <img src="img/main/content/main-banner/car_wheel.png" alt="car wheel">
+                </div>
+                <div class="main-banner_info">
+                  <h2>Весенние скидки</h2>
+                  <button type="submit" class="button main-banner_button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+            <div class="main-slider_items">
+              <div class="main-slider_banner">
+                <div class="main-banner_img">
+                  <img src="img/main/content/main-banner/car_wheel.png" alt="car wheel">
+                </div>
+                <div class="main-banner_info">
+                  <h2>Весенние скидки</h2>
+                  <button type="submit" class="button main-banner_button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+            <div class="main-slider_items">
+              <div class="main-slider_banner">
+                <div class="main-banner_img">
+                  <img src="img/main/content/main-banner/car_wheel.png" alt="car wheel">
+                </div>
+                <div class="main-banner_info">
+                  <h2>Весенние скидки</h2>
+                  <button type="submit" class="button main-banner_button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+            <div class="main-slider_items">
+              <div class="main-slider_banner">
+                <div class="main-banner_img">
+                  <img src="img/main/content/main-banner/car_wheel.png" alt="car wheel">
+                </div>
+                <div class="main-banner_info">
+                  <h2>Весенние скидки</h2>
+                  <button type="submit" class="button main-banner_button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- main-banner -->
+          <div class="services">
+            <div class="row service-slider">
+              <div class="col-lg-4 services_1">
+                <a href="#">
+                  <img src="img/main/content/shipped.png" alt="услуга">
+                  <p>Быстрая доставка</p>
+                </a>
+              </div>
+              <div class="col-lg-4 services_1">
+                <a href="#">
+                  <img src="img/main/content/shipped.png" alt="услуга">
+                  <p>Быстрая доставка</p>
+                </a>
+              </div>
+              <div class="col-lg-4 services_1">
+                <a href="#">
+                  <img src="img/main/content/shipped.png" alt="услуга">
+                  <p>Быстрая доставка</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- services -->
+          <div class="product">
+            <h3 class="titles">Лучшие предложения</h3>
+            <ul class="product-nav">
+              <li><a href="#" class="product-nav_all">Все</a></li>
+              <li><a href="#" class="product-nav_active"></a></li>
+              <li><a href="#" class="product-nav_form"></a></li>
+              <li><a href="#" class="product-nav_form"></a></li>
+              <li><a href="#" class="product-nav_form"></a></li>
+              <li><a href="#" class="product-nav_form"></a></li>
+              <li><a href="#" class="product-nav_form"></a></li>
+              <li><a href="#" class="product-nav_form"></a></li>
+              <li><a href="#" class="product-nav_form"></a></li>
+            </ul>
+            <div class="product-deal_slaider">
+              <div>
+                <div class="row product-deals">
+                  <div class="col-sm-4 col-md-4 col-lg-4">
+                    <div class="product-deals_deal deals-1 deals-1_sale">
+                      <div class="deals-img">
+                        <img class="deal-img" src="img/main/content/image.png" alt="товар">
+                      </div>
+                      <div class="rating_block">
+                        <input name="rating" value="5" id="rating_5" type="radio" />
+                        <label for="rating_5" class="label_rating"></label>
+
+                        <input name="rating" value="4" id="rating_4" type="radio" />
+                        <label for="rating_4" class="label_rating"></label>
+
+                        <input name="rating" value="3" id="rating_3" type="radio" />
+                        <label for="rating_3" class="label_rating"></label>
+
+                        <input name="rating" value="2" id="rating_2" type="radio" />
+                        <label for="rating_2" class="label_rating"></label>
+
+                        <input name="rating" value="1" id="rating_1" type="radio" />
+                        <label for="rating_1" class="label_rating"></label>
+                      </div>
+                      <p class="product-deals_descript">BFGOODRICH All-Terrain T/A<br>245/70 R16 11/110S</p>
+                      <p class="product-deals_price">11 580р.<span>11 580р.</span></p>
+                      <a href="#" class="product-deals_cart">В корзину</a>
+                      <span>-30%</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4 col-md-4 col-lg-4">
+                    <div class="product-deals_deal deals-1">
+                      <div class="deals-img">
+                        <img class="deal-img" src="img/main/content/image.png" alt="товар">
+                      </div>
+                      <div class="rating_block">
+                        <input name="rating" value="5" id="rating_15" type="radio" />
+                        <label for="rating_15" class="label_rating"></label>
+
+                        <input name="rating" value="4" id="rating_14" type="radio" />
+                        <label for="rating_14" class="label_rating"></label>
+
+                        <input name="rating" value="3" id="rating_13" type="radio" />
+                        <label for="rating_13" class="label_rating"></label>
+
+                        <input name="rating" value="2" id="rating_12" type="radio" />
+                        <label for="rating_12" class="label_rating"></label>
+
+                        <input name="rating" value="1" id="rating_11" type="radio" />
+                        <label for="rating_11" class="label_rating"></label>
+                      </div>
+                      <p class="product-deals_descript">BFGOODRICH All-Terrain T/A<br>245/70 R16 11/110S</p>
+                      <p class="product-deals_price">11 580р.</p>
+                      <a href="#" class="product-deals_cart">В корзину</a>
+                    </div>
+                  </div>
+                  <div class="col-sm-4 col-md-4 col-lg-4">
+                    <div class="product-deals_deal deals-1">
+                      <div class="deals-img">
+                        <img class="deal-img" src="img/main/content/image.png" alt="товар">
+                      </div>
+                      <div class="rating_block">
+                        <input name="rating" value="5" id="rating_25" type="radio" />
+                        <label for="rating_25" class="label_rating"></label>
+
+                        <input name="rating" value="4" id="rating_24" type="radio" />
+                        <label for="rating_24" class="label_rating"></label>
+
+                        <input name="rating" value="3" id="rating_23" type="radio" />
+                        <label for="rating_23" class="label_rating"></label>
+
+                        <input name="rating" value="2" id="rating_22" type="radio" />
+                        <label for="rating_22" class="label_rating"></label>
+
+                        <input name="rating" value="1" id="rating_21" type="radio" />
+                        <label for="rating_21" class="label_rating"></label>
+                      </div>
+                      <p class="product-deals_descript">BFGOODRICH All-Terrain T/A<br>245/70 R16 11/110S</p>
+                      <p class="product-deals_price">11 580р.</p>
+                      <a href="#" class="product-deals_cart">В корзину</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="row product-deals">
+                  <div class="col-sm-4 col-md-4 col-lg-4">
+                    <div class="product-deals_deal deals-1 deals-1_snow">
+                      <img class="deals-img" src="img/main/content/image.png" alt="товар">
+                      <div class="rating_block">
+                        <input name="rating" value="5" id="rating_35" type="radio" />
+                        <label for="rating_35" class="label_rating"></label>
+
+                        <input name="rating" value="4" id="rating_34" type="radio" />
+                        <label for="rating_34" class="label_rating"></label>
+
+                        <input name="rating" value="3" id="rating_33" type="radio" />
+                        <label for="rating_33" class="label_rating"></label>
+
+                        <input name="rating" value="2" id="rating_32" type="radio" />
+                        <label for="rating_32" class="label_rating"></label>
+
+                        <input name="rating" value="1" id="rating_31" type="radio" />
+                        <label for="rating_31" class="label_rating"></label>
+                      </div>
+                      <p class="product-deals_descript">BFGOODRICH All-Terrain T/A<br>245/70 R16 11/110S</p>
+                      <p class="product-deals_price">11 580р.</p>
+                      <a href="#" class="product-deals_cart">В корзину</a>
+                      <img class="deals-1_snowbg" src="img/main/content/snow.png" alt="snow">
+                    </div>
+                  </div>
+                  <div class="col-sm-4 col-md-4 col-lg-4">
+                    <div class="product-deals_deal deals-1">
+                      <img class="deals-img" src="img/main/content/image.png" alt="товар">
+                      <div class="rating_block">
+                        <input name="rating" value="5" id="rating_45" type="radio" />
+                        <label for="rating_45" class="label_rating"></label>
+
+                        <input name="rating" value="4" id="rating_44" type="radio" />
+                        <label for="rating_44" class="label_rating"></label>
+
+                        <input name="rating" value="3" id="rating_43" type="radio" />
+                        <label for="rating_43" class="label_rating"></label>
+
+                        <input name="rating" value="2" id="rating_42" type="radio" />
+                        <label for="rating_42" class="label_rating"></label>
+
+                        <input name="rating" value="1" id="rating_41" type="radio" />
+                        <label for="rating_41" class="label_rating"></label>
+                      </div>
+                      <p class="product-deals_descript">BFGOODRICH All-Terrain T/A<br>245/70 R16 11/110S</p>
+                      <p class="product-deals_price">11 580р.</p>
+                      <a href="#" class="product-deals_cart">В корзину</a>
+                    </div>
+                  </div>
+                  <div class="col-sm-4 col-md-4 col-lg-4">
+                    <div class="product-deals_deal deals-1 deals-1_new">
+                      <img class="deals-img" src="img/main/content/image.png" alt="товар">
+                      <div class="rating_block">
+                        <input name="rating" value="5" id="rating_55" type="radio" />
+                        <label for="rating_55" class="label_rating"></label>
+
+                        <input name="rating" value="4" id="rating_54" type="radio" />
+                        <label for="rating_54" class="label_rating"></label>
+
+                        <input name="rating" value="3" id="rating_53" type="radio" />
+                        <label for="rating_53" class="label_rating"></label>
+
+                        <input name="rating" value="2" id="rating_52" type="radio" />
+                        <label for="rating_52" class="label_rating"></label>
+
+                        <input name="rating" value="1" id="rating_51" type="radio" />
+                        <label for="rating_51" class="label_rating"></label>
+                      </div>
+                      <p class="product-deals_descript">BFGOODRICH All-Terrain T/A<br>245/70 R16 11/110S</p>
+                      <p class="product-deals_price">11 580р.</p>
+                      <a href="#" class="product-deals_cart">В корзину</a>
+                      <span>new</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="row product-deals">
+                  <div class="col-sm-4 col-md-4 col-lg-4">
+                    <div class="product-deals_deal deals-1 deals-1_snow">
+                      <img class="deals-img" src="img/main/content/image.png" alt="товар">
+                      <div class="rating_block">
+                        <input name="rating" value="5" id="rating_65" type="radio" />
+                        <label for="rating_65" class="label_rating"></label>
+
+                        <input name="rating" value="4" id="rating_64" type="radio" />
+                        <label for="rating_64" class="label_rating"></label>
+
+                        <input name="rating" value="3" id="rating_63" type="radio" />
+                        <label for="rating_63" class="label_rating"></label>
+
+                        <input name="rating" value="2" id="rating_62" type="radio" />
+                        <label for="rating_62" class="label_rating"></label>
+
+                        <input name="rating" value="1" id="rating_61" type="radio" />
+                        <label for="rating_61" class="label_rating"></label>
+                      </div>
+                      <p class="product-deals_descript">BFGOODRICH All-Terrain T/A<br>245/70 R16 11/110S</p>
+                      <p class="product-deals_price">11 580р.<span>11 580р.</span></p>
+                      <a href="#" class="product-deals_cart">В корзину</a>
+                      <img class="deals-1_snowbg" src="img/main/content/snow.png" alt="snow">
+                    </div>
+                  </div>
+                  <div class="col-sm-4 col-md-4 col-lg-4">
+                    <div class="product-deals_deal deals-1">
+                      <img class="deals-img" src="img/main/content/image.png" alt="товар">
+                      <div class="rating_block">
+                        <input name="rating" value="5" id="rating_75" type="radio" />
+                        <label for="rating_75" class="label_rating"></label>
+
+                        <input name="rating" value="4" id="rating_74" type="radio" />
+                        <label for="rating_74" class="label_rating"></label>
+
+                        <input name="rating" value="3" id="rating_73" type="radio" />
+                        <label for="rating_73" class="label_rating"></label>
+
+                        <input name="rating" value="2" id="rating_72" type="radio" />
+                        <label for="rating_72" class="label_rating"></label>
+
+                        <input name="rating" value="1" id="rating_71" type="radio" />
+                        <label for="rating_71" class="label_rating"></label>
+                      </div>
+                      <p class="product-deals_descript">BFGOODRICH All-Terrain T/A<br>245/70 R16 11/110S</p>
+                      <p class="product-deals_price">11 580р.</p>
+                      <a href="#" class="product-deals_cart">В корзину</a>
+                    </div>
+                  </div>
+                  <div class="col-sm-4 col-md-4 col-lg-4">
+                    <div class="product-deals_deal deals-1 deals-1_new">
+                      <img class="deals-img" src="img/main/content/image.png" alt="товар">
+                      <div class="rating_block">
+                        <input name="rating" value="5" id="rating_85" type="radio" />
+                        <label for="rating_85" class="label_rating"></label>
+
+                        <input name="rating" value="4" id="rating_84" type="radio" />
+                        <label for="rating_84" class="label_rating"></label>
+
+                        <input name="rating" value="3" id="rating_83" type="radio" />
+                        <label for="rating_83" class="label_rating"></label>
+
+                        <input name="rating" value="2" id="rating_82" type="radio" />
+                        <label for="rating_82" class="label_rating"></label>
+
+                        <input name="rating" value="1" id="rating_81" type="radio" />
+                        <label for="rating_81" class="label_rating"></label>
+                      </div>
+                      <p class="product-deals_descript">BFGOODRICH All-Terrain T/A<br>245/70 R16 11/110S</p>
+                      <p class="product-deals_price">11 580р.</p>
+                      <a href="#" class="product-deals_cart">В корзину</a>
+                      <span>new</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- product -->
+          <div class="offer">
+            <div class="row">
+              <div class="col-md-12 col-lg-6">
+                <div class="offer-1">
+                  <a href="#" class="offer-1_promo">Акции</a>
+                  <p class="offer-1_ads"><span>Супер</span><br>цена</p>
+                  <p class="offer-1_nameoil">Gazpromneft<br>motor Oil 50</p>
+                  <p class="offer-1_price"><span>1 480p.</span></p>
+                  <img src="img/main/content/offer/Canister.png" alt="канистра" class="offer-1_img">
+                </div>
+              </div>
+              <div class="col-md-12 col-lg-6 offer-2">
+                <div class="offer-2_selection">
+                  <p class="offer-2_text"><span>онлайн</span>-Подбор<br>смазочных<br>материалов</p>
+                  <a href="#" class="offer-2_begin">Начать</a>
+                  <img src="img/main/content/offer/car.png" alt="машина" class="offer-2_car">
+                </div>
+                <div class="offer-2_oilfiltres">
+                  <p class="offer-2_filtres">Фильтры<br>масляные</p>
+                  <a href="#" class="offer-2_catalog">Каталог</a>
+                  <img src="img/main/content/offer/filtres.png" alt="фильтры" class="offer-2_filtrimg">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /.offer -->
+          <div class="product">
+            <h3 class="titles">Новое поступление</h3>
+            <ul class="product-nav">
+              <li><a href="#" class="product-nav_all">Все</a></li>
+              <li><a href="#" class="product-nav_form"></a></li>
+              <li><a href="#" class="product-nav_form"></a></li>
+              <li><a href="#" class="product-nav_form"></a></li>
+              <li><a href="#" class="product-nav_form"></a></li>
+              <li><a href="#" class="product-nav_form"></a></li>
+              <li><a href="#" class="product-nav_form"></a></li>
+              <li><a href="#" class="product-nav_form"></a></li>
+              <li><a href="#" class="product-nav_form"></a></li>
+            </ul>
+            <div class="product-deal_slaider">
+              <div>
+                <div class="row product-deals">
+                  <div class="col-sm-4 col-md-4 col-lg-4">
+                    <div class="product-deals_deal deals-1 deals-1_sale">
+                      <div class="deals-img">
+                        <img class="deal-img" src="img/main/content/image.png" alt="товар">
+                      </div>
+                      <div class="rating_block">
+                        <input name="rating" value="5" id="rating_95" type="radio" />
+                        <label for="rating_95" class="label_rating"></label>
+
+                        <input name="rating" value="4" id="rating_94" type="radio" />
+                        <label for="rating_94" class="label_rating"></label>
+
+                        <input name="rating" value="3" id="rating_93" type="radio" />
+                        <label for="rating_93" class="label_rating"></label>
+
+                        <input name="rating" value="2" id="rating_92" type="radio" />
+                        <label for="rating_92" class="label_rating"></label>
+
+                        <input name="rating" value="1" id="rating_91" type="radio" />
+                        <label for="rating_91" class="label_rating"></label>
+                      </div>
+                      <p class="product-deals_descript">BFGOODRICH All-Terrain T/A<br>245/70 R16 11/110S</p>
+                      <p class="product-deals_price">11 580р.<span>11 580р.</span></p>
+                      <a href="#" class="product-deals_cart">В корзину</a>
+                      <span>-30%</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4 col-md-4 col-lg-4">
+                    <div class="product-deals_deal deals-1">
+                      <div class="deals-img">
+                        <img class="deal-img" src="img/main/content/image.png" alt="товар">
+                      </div>
+                      <div class="rating_block">
+                        <input name="rating" value="5" id="rating_05" type="radio" />
+                        <label for="rating_05" class="label_rating"></label>
+
+                        <input name="rating" value="4" id="rating_04" type="radio" />
+                        <label for="rating_04" class="label_rating"></label>
+
+                        <input name="rating" value="3" id="rating_03" type="radio" />
+                        <label for="rating_03" class="label_rating"></label>
+
+                        <input name="rating" value="2" id="rating_02" type="radio" />
+                        <label for="rating_02" class="label_rating"></label>
+
+                        <input name="rating" value="1" id="rating_01" type="radio" />
+                        <label for="rating_01" class="label_rating"></label>
+                      </div>
+                      <p class="product-deals_descript">BFGOODRICH All-Terrain T/A<br>245/70 R16 11/110S</p>
+                      <p class="product-deals_price">11 580р.</p>
+                      <a href="#" class="product-deals_cart">В корзину</a>
+                    </div>
+                  </div>
+                  <div class="col-sm-4 col-md-4 col-lg-4">
+                    <div class="product-deals_deal deals-1">
+                      <div class="deals-img">
+                        <img class="deal-img" src="img/main/content/image.png" alt="товар">
+                      </div>
+                      <div class="rating_block">
+                        <input name="rating" value="5" id="rating_105" type="radio" />
+                        <label for="rating_105" class="label_rating"></label>
+
+                        <input name="rating" value="4" id="rating_104" type="radio" />
+                        <label for="rating_104" class="label_rating"></label>
+
+                        <input name="rating" value="3" id="rating_103" type="radio" />
+                        <label for="rating_103" class="label_rating"></label>
+
+                        <input name="rating" value="2" id="rating_102" type="radio" />
+                        <label for="rating_102" class="label_rating"></label>
+
+                        <input name="rating" value="1" id="rating_101" type="radio" />
+                        <label for="rating_101" class="label_rating"></label>
+                      </div>
+                      <p class="product-deals_descript">BFGOODRICH All-Terrain T/A<br>245/70 R16 11/110S</p>
+                      <p class="product-deals_price">11 580р.</p>
+                      <a href="#" class="product-deals_cart">В корзину</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="row product-deals">
+                  <div class="col-sm-4 col-md-4 col-lg-4">
+                    <div class="product-deals_deal deals-1 deals-1_snow">
+                      <img class="deals-img" src="img/main/content/image.png" alt="товар">
+                      <div class="rating_block">
+                        <input name="rating" value="5" id="rating_205" type="radio" />
+                        <label for="rating_205" class="label_rating"></label>
+
+                        <input name="rating" value="4" id="rating_204" type="radio" />
+                        <label for="rating_204" class="label_rating"></label>
+
+                        <input name="rating" value="3" id="rating_203" type="radio" />
+                        <label for="rating_203" class="label_rating"></label>
+
+                        <input name="rating" value="2" id="rating_202" type="radio" />
+                        <label for="rating_202" class="label_rating"></label>
+
+                        <input name="rating" value="1" id="rating_201" type="radio" />
+                        <label for="rating_201" class="label_rating"></label>
+                      </div>
+                      <p class="product-deals_descript">BFGOODRICH All-Terrain T/A<br>245/70 R16 11/110S</p>
+                      <p class="product-deals_price">11 580р.</p>
+                      <a href="#" class="product-deals_cart">В корзину</a>
+                      <img class="deals-1_snowbg" src="img/main/content/snow.png" alt="snow">
+                    </div>
+                  </div>
+                  <div class="col-sm-4 col-md-4 col-lg-4">
+                    <div class="product-deals_deal deals-1">
+                      <img class="deals-img" src="img/main/content/image.png" alt="товар">
+                      <div class="rating_block">
+                        <input name="rating" value="5" id="rating_305" type="radio" />
+                        <label for="rating_305" class="label_rating"></label>
+
+                        <input name="rating" value="4" id="rating_304" type="radio" />
+                        <label for="rating_304" class="label_rating"></label>
+
+                        <input name="rating" value="3" id="rating_303" type="radio" />
+                        <label for="rating_303" class="label_rating"></label>
+
+                        <input name="rating" value="2" id="rating_302" type="radio" />
+                        <label for="rating_302" class="label_rating"></label>
+
+                        <input name="rating" value="1" id="rating_301" type="radio" />
+                        <label for="rating_301" class="label_rating"></label>
+                      </div>
+                      <p class="product-deals_descript">BFGOODRICH All-Terrain T/A<br>245/70 R16 11/110S</p>
+                      <p class="product-deals_price">11 580р.</p>
+                      <a href="#" class="product-deals_cart">В корзину</a>
+                    </div>
+                  </div>
+                  <div class="col-sm-4 col-md-4 col-lg-4">
+                    <div class="product-deals_deal deals-1 deals-1_new">
+                      <img class="deals-img" src="img/main/content/image.png" alt="товар">
+                      <div class="rating_block">
+                        <input name="rating" value="5" id="rating_405" type="radio" />
+                        <label for="rating_405" class="label_rating"></label>
+
+                        <input name="rating" value="4" id="rating_404" type="radio" />
+                        <label for="rating_404" class="label_rating"></label>
+
+                        <input name="rating" value="3" id="rating_403" type="radio" />
+                        <label for="rating_403" class="label_rating"></label>
+
+                        <input name="rating" value="2" id="rating_402" type="radio" />
+                        <label for="rating_402" class="label_rating"></label>
+
+                        <input name="rating" value="1" id="rating_401" type="radio" />
+                        <label for="rating_401" class="label_rating"></label>
+                      </div>
+                      <p class="product-deals_descript">BFGOODRICH All-Terrain T/A<br>245/70 R16 11/110S</p>
+                      <p class="product-deals_price">11 580р.</p>
+                      <a href="#" class="product-deals_cart">В корзину</a>
+                      <span>new</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="row product-deals">
+                  <div class="col-sm-4 col-md-4 col-lg-4">
+                    <div class="product-deals_deal deals-1 deals-1_snow">
+                      <img class="deals-img" src="img/main/content/image.png" alt="товар">
+                      <div class="rating_block">
+                        <input name="rating" value="5" id="rating_505" type="radio" />
+                        <label for="rating_505" class="label_rating"></label>
+
+                        <input name="rating" value="4" id="rating_504" type="radio" />
+                        <label for="rating_504" class="label_rating"></label>
+
+                        <input name="rating" value="3" id="rating_503" type="radio" />
+                        <label for="rating_503" class="label_rating"></label>
+
+                        <input name="rating" value="2" id="rating_502" type="radio" />
+                        <label for="rating_502" class="label_rating"></label>
+
+                        <input name="rating" value="1" id="rating_501" type="radio" />
+                        <label for="rating_501" class="label_rating"></label>
+                      </div>
+                      <p class="product-deals_descript">BFGOODRICH All-Terrain T/A<br>245/70 R16 11/110S</p>
+                      <p class="product-deals_price">11 580р.<span>11 580р.</span></p>
+                      <a href="#" class="product-deals_cart">В корзину</a>
+                      <img class="deals-1_snowbg" src="img/main/content/snow.png" alt="snow">
+                    </div>
+                  </div>
+                  <div class="col-sm-4 col-md-4 col-lg-4">
+                    <div class="product-deals_deal deals-1">
+                      <img class="deals-img" src="img/main/content/image.png" alt="товар">
+                      <div class="rating_block">
+                        <input name="rating" value="5" id="rating_605" type="radio" />
+                        <label for="rating_605" class="label_rating"></label>
+
+                        <input name="rating" value="4" id="rating_604" type="radio" />
+                        <label for="rating_604" class="label_rating"></label>
+
+                        <input name="rating" value="3" id="rating_603" type="radio" />
+                        <label for="rating_603" class="label_rating"></label>
+
+                        <input name="rating" value="2" id="rating_602" type="radio" />
+                        <label for="rating_602" class="label_rating"></label>
+
+                        <input name="rating" value="1" id="rating_601" type="radio" />
+                        <label for="rating_601" class="label_rating"></label>
+                      </div>
+                      <p class="product-deals_descript">BFGOODRICH All-Terrain T/A<br>245/70 R16 11/110S</p>
+                      <p class="product-deals_price">11 580р.</p>
+                      <a href="#" class="product-deals_cart">В корзину</a>
+                    </div>
+                  </div>
+                  <div class="col-sm-4 col-md-4 col-lg-4">
+                    <div class="product-deals_deal deals-1 deals-1_new">
+                      <img class="deals-img" src="img/main/content/image.png" alt="товар">
+                      <div class="rating_block">
+                        <input name="rating" value="5" id="rating_705" type="radio" />
+                        <label for="rating_705" class="label_rating"></label>
+
+                        <input name="rating" value="4" id="rating_704" type="radio" />
+                        <label for="rating_704" class="label_rating"></label>
+
+                        <input name="rating" value="3" id="rating_703" type="radio" />
+                        <label for="rating_703" class="label_rating"></label>
+
+                        <input name="rating" value="2" id="rating_702" type="radio" />
+                        <label for="rating_702" class="label_rating"></label>
+
+                        <input name="rating" value="1" id="rating_701" type="radio" />
+                        <label for="rating_701" class="label_rating"></label>
+                      </div>
+                      <p class="product-deals_descript">BFGOODRICH All-Terrain T/A<br>245/70 R16 11/110S</p>
+                      <p class="product-deals_price">11 580р.</p>
+                      <a href="#" class="product-deals_cart">В корзину</a>
+                      <span>new</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- product -->
+          <div class="car-service">
+            <p class="car-service_text">современный<br><span>авто</span>сервис</p>
+            <a href="#" class="car-service_record">Записаться</a>
+            <img src="img/main/content/car-service/carservice-img.png" alt="машина" class="car-service_img">
+          </div>
+          <!-- car-service -->
+          <div class="news">
+            <h3 class="titles">Новости</h3>
+            <div class="news-slider">
+              <div class="news-slider_item">
+                <img src="img/main/content/news/new-img_1.jpg" alt="картинка новостей">
+                <p class="news-data">03.03.2020<time>2020-03-03</time></p>
+                <p class="news-text">Летние шины – более жесткие, выдерживают высокие температуры и контакт с разогретым
+                  асфальтом в жаркое время года. </p>
+              </div>
+              <div class="news-slider_item">
+                <img src="img/main/content/news/new-img_1.jpg" alt="картинка новостей">
+                <p class="news-data">04.04.2020<time>2020-04-04</time></p>
+                <p class="news-text">Летние шины – более жесткие, выдерживают высокие температуры и контакт с разогретым
+                  асфальтом в жаркое время года. </p>
+              </div>
+              <div class="news-slider_item">
+                <img src="img/main/content/news/new-img_1.jpg" alt="картинка новостей">
+                <p class="news-data">05.05.2020<time>2020-05-05</time></p>
+                <p class="news-text">Летние шины – более жесткие, выдерживают высокие температуры и контакт с разогретым
+                  асфальтом в жаркое время года. </p>
+              </div>
+              <div class="news-slider_item">
+                <img src="img/main/content/news/new-img_1.jpg" alt="картинка новостей">
+                <p class="news-data">05.05.2020<time>2020-05-05</time></p>
+                <p class="news-text">Летние шины – более жесткие, выдерживают высокие температуры и контакт с разогретым
+                  асфальтом в жаркое время года. </p>
+              </div>
+              <div class="news-slider_item">
+                <img src="img/main/content/news/new-img_1.jpg" alt="картинка новостей">
+                <p class="news-data">06.06.2020<time>2020-06-06</time></p>
+                <p class="news-text">Летние шины – более жесткие, выдерживают высокие температуры и контакт с разогретым
+                  асфальтом в жаркое время года. </p>
+              </div>
+              <div class="news-slider_item">
+                <img src="img/main/content/news/new-img_1.jpg" alt="картинка новостей">
+                <p class="news-data">07.07.2020<time>2020-07-07</time></p>
+                <p class="news-text">Летние шины – более жесткие, выдерживают высокие температуры и контакт с разогретым
+                  асфальтом в жаркое время года. </p>
+              </div>
+            </div>
+          </div>
+          <!-- /.new -->
+          <div class="partners">
+            <h3 class="titles">Партнеры</h3>
+            <div class="partners-slider">
+              <div class="partners-slider_item">
+                <a href="#">
+                  <img src="img/main/content/partners/partner1.png" alt="">
+                </a>
+              </div>
+              <div class="partners-slider_item">
+                <a href="#">
+                  <img src="img/main/content/partners/partner2.png" alt="">
+                </a>
+              </div>
+              <div class="partners-slider_item">
+                <a href="#">
+                  <img src="img/main/content/partners/partner3.png" alt="">
+                </a>
+              </div>
+              <div class="partners-slider_item">
+                <a href="#">
+                  <img src="img/main/content/partners/partner4.png" alt="">
+                </a>
+              </div>
+              <div class="partners-slider_item">
+                <a href="#">
+                  <img src="img/main/content/partners/partner1.png" alt="">
+                </a>
+              </div>
+              <div class="partners-slider_item">
+                <a href="#">
+                  <img src="img/main/content/partners/partner2.png" alt="">
+                </a>
+              </div>
+              <div class="partners-slider_item">
+                <a href="#">
+                  <img src="img/main/content/partners/partner3.png" alt="">
+                </a>
+              </div>
+              <div class="partners-slider_item">
+                <a href="#">
+                  <img src="img/main/content/partners/partner4.png" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- partners -->
+          <div class="newsletter">
+            <div class="newsletter-text">
+              <p class="newsletter-text_text1"><span>Email</span> рассылка</p>
+              <p class="newsletter-text_text2">Будте в курсе новых поступлений и акций</p>
+            </div>
+            <div class="newsletter-form">
+              <form action="#" class="newsletter-form">
+                <input type="email" placeholder="Ваш Email" class="newsletter-form_input">
+                <button type="submit" class="button newsletter-form_button">Отправить</button>
+              </form>
+            </div>
+            <!-- newsletter -->
+          </div>
+        </div>
+        <!-- content -->
+      </div>
+
+    </div>
+  </main>
+  <!-- /.main -->
+
+  <footer>
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-3 col-lg-3">
+            <div class="footer-top_1">
+              <img src="img/footer/masma_logo_bl.png" alt="logo">
+              <p>В интернет-магазине автотоваров МАСМА представленны все необходимые масла и смазки, расходные жидкости,
+                автохимия, автозвук и различные аксессуары
+                для автомобиля. Огромный каталог запчастей, шин и дисков
+                с удобным онлайн подбором. </p>
+              <div class="footer-top_social">
+                <a href="#"><img src="img/footer/vk.png" alt="vk.com"></a>
+                <a href="#"><img src="img/footer/instagram.png" alt="instagram.com"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 col-md-3 col-lg-3">
+            <div class="footer-top_2 footer-top_list">
+              <h3>Каталог</h3>
+              <ul>
+                <li><a href="#">Кузовные детали</a></li>
+                <li><a href="#">Запчасти для ТО</a></li>
+                <li><a href="#">Оптика</a></li>
+                <li><a href="#">Автолампы</a></li>
+                <li><a href="#">Диски и шины</a></li>
+                <li><a href="#">Аккумуляторы</a></li>
+                <li><a href="#">Смазочные материалы</a></li>
+                <li><a href="#">Аксессуары</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-4 col-md-3 col-lg-3">
+            <div class="footer-top_3 footer-top_list">
+              <h3>Клиентам</h3>
+              <ul>
+                <li><a href="#">Оплата</a></li>
+                <li><a href="#">Доставка</a></li>
+                <li><a href="#">Возврат</a></li>
+                <li><a href="#">СТО</a></li>
+                <li><a href="#">Шинные центры</a></li>
+                <li><a href="#">АЗС Авангард-75</a></li>
+                <li><a href="#">Бонусная программа</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-4 col-md-3 col-lg-3">
+            <div class="footer-top_4 footer-top_list">
+              <h3>Оптовикам</h3>
+              <ul>
+                <li><a href="#">Оплата</a></li>
+                <li><a href="#">Доставка</a></li>
+                <li><a href="#">Возврат</a></li>
+                <li><a href="#">СТО</a></li>
+                <li><a href="#">Шинные центры</a></li>
+                <li><a href="#">АЗС Авангард-75</a></li>
+                <li><a href="#">Бонусная программа</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer-top -->
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-4">
+            <div class="footer-bottom_text">
+              <p>© МАСМА - автотовары онлайн. 2019</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-4">
+            <div class="footer-bottom_privacy">
+              <a href="#">Политика конфиденциальности</a>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-4">
+            <div class="footer-bottom_agreement">
+              <a href="#">Пользовательское соглашение</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- /.footer -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <link rel="stylesheet" href="slick/slick.css">
+  <link rel="stylesheet" href="slick/slick-theme.css">
+  <script src="slick/slick.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

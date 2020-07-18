@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "eu";
+  src: url("../fonts/Europe.woff") format("woff"),
+    url("../fonts/Europe.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Europe.ttf") format("truetype"),
+    url("../fonts/Europe.otf") format("otf"),
+    url("../fonts/Europe.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "eub";
+  src: url("../fonts/Europe-Bold.woff") format("woff"),
+    url("../fonts/Europe-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Europe-Bold.ttf") format("truetype"),
+    url("../fonts/Europe-Bold.otf") format("otf"),
+    url("../fonts/Europe-Bold.svg") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "eubi";
+  src: url("../fonts/Europe-Bold-Italic.woff") format("woff"),
+    url("../fonts/Europe-Bold-Italic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Europe-Bold-Italic.ttf") format("truetype"),
+    url("../fonts/Europe-Bold-Italic.otf") format("otf"),
+    url("../fonts/Europe-Bold-Italic.svg") format("svg");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "eui";
+  src: url("../fonts/Europe-Italic.woff") format("woff"),
+    url("../fonts/Europe-Italic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Europe-Italic.ttf") format("truetype"),
+    url("../fonts/Europe-Italic.otf") format("otf"),
+    url("../fonts/Europe-Italic.svg") format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
