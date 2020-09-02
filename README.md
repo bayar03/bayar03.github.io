@@ -25,4 +25,4 @@
 [УМ сайт Advice Finance](https://bayar03.github.io/AdviceFinance/index.html) - Верстка сайта "Advice Finanse"
 
 
-[УМ сайт Лендинг 2](https://bayar03.github.io/Лендинг_2/index.html) - Верстка сайта "Лендинг 2"
+[УМ сайт Aditii](https://bayar03.github.io/Лендинг_2/index.html) - Верстка сайта "Aditii"
