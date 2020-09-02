@@ -1,0 +1,32 @@
+@font-face {
+	font-family: "lr";
+	src: url("../fonts/lr.woff2") format("woff2"), url("../fonts/lr.woff") format("woff");
+}
+@font-face {
+	font-family: "bnb";
+	src: url("../fonts/bnb.woff2") format("woff2"), url("../fonts/bnb.woff") format("woff");
+}
+@font-face {
+	font-family: "bnl";
+	src: url("../fonts/bnl.woff2") format("woff2"), url("../fonts/bnl.woff") format("woff");
+}
+@font-face {
+	font-family: "bnr";
+	src: url("../fonts/bnr.woff2") format("woff2"), url("../fonts/bnr.woff") format("woff");
+}
+@font-face {
+	font-family: "osb";
+	src: url("../fonts/osb.woff2") format("woff2"), url("../fonts/osb.woff") format("woff");
+}
+@font-face {
+	font-family: "osi";
+	src: url("../fonts/osi.woff2") format("woff2"), url("../fonts/osi.woff") format("woff");
+}
+@font-face {
+	font-family: "osl";
+	src: url("../fonts/osl.woff2") format("woff2"), url("../fonts/osl.woff") format("woff");
+}
+@font-face {
+	font-family: "osr";
+	src: url("../fonts/osr.woff2") format("woff2"), url("../fonts/osr.woff") format("woff");
+}
