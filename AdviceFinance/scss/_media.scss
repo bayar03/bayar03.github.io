@@ -1,0 +1,52 @@
+@media(max-width: 1200px) {
+  .container{
+    padding: 0 15px;
+  }  
+}
+
+@media(max-width: 1151px) {
+  .main{
+    &-about{
+      &__content{
+        &-education{
+          &-text{
+            font-size: 15px;
+          }
+        }
+        &-text1, 
+        &-text2{
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 1024px) {
+  .main{
+    &-feedback{
+      &__slider{
+        .slider-arrows__left{
+          left: 350px;
+        }
+      }
+      .slider-arrows__right{
+        right: 350px;
+      }
+    }
+  }  
+}
+
+// @media(max-width: 992px) {
+  
+// }
+
+// @media(max-width: 768px) {
+    
+  
+// }
+
+// @media(max-width: 320px) {
+    
+  
+// }
